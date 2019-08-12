@@ -7,7 +7,15 @@ class Search extends Component {
 
   render(){
   	return(
-  	  <div>Search goes here.</div>
+  	  <div>
+        <h1>Cryptocurrency Portfolo Calculator</h1>
+        <form>
+          <div className="form-group">
+            <label>Search for a Currency:</label><br/>
+            <input onChange={this.props.handleChange} autoComplit="off" type="text" name="name" placeholder="Ex: Bitcoin, Litecoin, Ethereum..." value={this.props.name} className="field"/>
+          </div>
+        </form>
+  	  </div>
   	)  
   }
 }
