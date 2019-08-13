@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Search from './Search'
 import Calculate from './Calculate'
+import Portfolio from './Portfolio'
 
 import axios from 'axios'
 
@@ -90,6 +91,7 @@ class PortfolioContainer extends Component {
   	return(
   	  <div>
         {searchOrCalculate}
+        <Portfolio portfolio={this.state.portfolio}/>
   	  </div>
   	)
   }
