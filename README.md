@@ -1,4 +1,5 @@
 # Crypto-Calculator-React
+![photo](image.png)
 
 ## Build a Cryptocurrency Portfolio Calculator with React and Ruby on Rails
 
