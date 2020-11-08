@@ -57,7 +57,7 @@ class PortfolioContainer extends Component {
   	  amount: amount
   	})
   	.then( (data) => {
-  	  console.log(data)	
+  	  // console.log(data)	
   	  this.setState({
   	  	amount: '',
   	  	active_currency: null,
@@ -65,7 +65,7 @@ class PortfolioContainer extends Component {
   	  })
   	})
   	.catch( (data) => {
-  		debugger
+  		// debugger
   	})
   }
 
